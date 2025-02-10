@@ -11,7 +11,8 @@ Answer the following questions in the provided markdown file before turning in t
   It is a reusable piece of code just like a javascript function.
 
 - How do you mount a React app (root component) to the DOM?
-  Via the div with the id of root
+  -- Use the `react-dom` package to create a root attached to an HTML element (usually a `div`)
+  -- Call `root.render()` and pass it the app's main component.
 
 - What are some other popular frontend frameworks?
   Angular, vue.js, svelte, jQuery
